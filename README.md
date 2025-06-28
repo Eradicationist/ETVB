@@ -1,0 +1,1 @@
+this is a script and program i mostly made as it has been overhauled so much it is uncomparable to the original...you will need to find proxies for it and update all the input selectors for the proxy sites yourself in visual studio code or some other ai assistance.
