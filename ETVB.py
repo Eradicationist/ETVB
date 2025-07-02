@@ -71,17 +71,13 @@ DEFAULT_CONFIG = {
         "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1",
     ],
     "proxies": [
-        "https://www.croxyproxy.com",
-        "https://www.croxyproxy.rocks",
-        "https://www.croxy.network",
-        "https://www.croxy.org",
-        "https://www.croxyproxy.net",
+
     ],
     "activity_interval": 30,
     "min_viewer_duration": 1000,
     "max_viewer_duration": 2000,
     "input_selectors": [
-        "input#url",  # Most robust for CroxyProxy
+        "input#url",  # Most robust
         "input[name='url']",
         "input[id='url']",
         "input[type='url']",
