@@ -1,10 +1,7 @@
-asyncio
-pystyle
-beautifulsoup4
-httpx
-urllib3
-retrying
-psutil
+
 undetected-chromedriver
-selenium
+psutil
+retrying
 requests
+pystyle
+selenium
