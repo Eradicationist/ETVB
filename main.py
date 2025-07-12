@@ -433,11 +433,11 @@ def get_best_proxy(valid_proxies):
         return min(available, key=lambda p: PROXY_HEALTH.get(p, {'fail': 0})['fail'])
 
 def check_proxy_health(proxy):
-    # EVB-style: Only check HTTP(S) proxies, skip CroxyProxy URLs
+    # EVB-style: Only check HTTP(S) proxies, skip yProxy URLs
     if proxy.startswith("http://") or proxy.startswith("https://"):
-        # If it's a CroxyProxy or similar, treat as always healthy (let browser handle failures)
+        # If it's a yProxy or similar, treat as always healthy (let browser handle failures)
         croxy_domains = [
-            "croxyproxy.com", "croxyproxy.rocks", "croxy.network", "croxy.org", "croxyproxy.net"
+           
         ]
         from urllib.parse import urlparse
         domain = urlparse(proxy).netloc.replace('www.', '').split('/')[0]
