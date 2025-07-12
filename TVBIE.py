@@ -573,7 +573,7 @@ def sustain_viewers(num_viewers, url, proxies, user_agents, headless, activity_i
         valid_proxies = [None]*num_viewers
         print("No proxies loaded. Running without proxies.")
 
-    # Separate web proxies (CroxyProxy etc) from HTTP/SOCKS proxies
+    # Separate web proxies from HTTP/SOCKS proxies
     web_proxies = [p for p in valid_proxies if p and p.startswith("http")]
     socks_http_proxies = [p for p in valid_proxies if p and not p.startswith("http")]
 
