@@ -1,3 +1,3 @@
 @echo off
 color a
-py main.py
+py TVBIE.py
