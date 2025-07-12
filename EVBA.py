@@ -77,14 +77,14 @@ DEFAULT_CONFIG = {
     "min_viewer_duration": 1000,
     "max_viewer_duration": 2000,
     "proxy_input_selectors": {
-        "croxyproxy.com": ["input#url", "input[name='url']", "input[id='url']", "input[type='url']"],
-        "croxyproxy.rocks": ["input#url", "input[name='url']", "input[id='url']", "input[type='url']"],
-        "croxy.network": ["input#url", "input[name='url']", "input[id='url']", "input[type='url']"],
-        "croxy.org": ["input#url", "input[name='url']", "input[id='url']", "input[type='url']"],
-        "croxyproxy.net": ["input#url", "input[name='url']", "input[id='url']", "input[type='url']"],
+        "yproxy.com": ["input#url", "input[name='url']", "input[id='url']", "input[type='url']"],
+        "": ["input#url", "input[name='url']", "input[id='url']", "input[type='url']"],
+        "": ["input#url", "input[name='url']", "input[id='url']", "input[type='url']"],
+        "": ["input#url", "input[name='url']", "input[id='url']", "input[type='url']"],
+        "": ["input#url", "input[name='url']", "input[id='url']", "input[type='url']"],
     },
     "input_selectors": [
-        "input#url",  # Most robust for CroxyProxy and many others
+        "input#url",  # Most robust for 
         "input[name='url']",
         "input[id='url']",
         "input[type='url']",
