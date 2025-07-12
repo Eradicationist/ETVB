@@ -73,22 +73,18 @@ DEFAULT_CONFIG = {
         "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1",
     ],
     "proxies": [
-        "https://www.croxyproxy.com",
-        "https://www.croxyproxy.rocks",
-        "https://www.croxy.network",
-        "https://www.croxy.org",
-        "https://www.croxyproxy.net",
+
     ],
     "activity_interval": 30,
     "proxy_input_selectors": {
-        "croxyproxy.com": ["input#url", "input[name='url']", "input[id='url']", "input[type='url']"],
-        "croxyproxy.rocks": ["input#url", "input[name='url']", "input[id='url']", "input[type='url']"],
-        "croxy.network": ["input#url", "input[name='url']", "input[id='url']", "input[type='url']"],
-        "croxy.org": ["input#url", "input[name='url']", "input[id='url']", "input[type='url']"],
-        "croxyproxy.net": ["input#url", "input[name='url']", "input[id='url']", "input[type='url']"],
+        "": ["input#url", "input[name='url']", "input[id='url']", "input[type='url']"],
+        "": ["input#url", "input[name='url']", "input[id='url']", "input[type='url']"],
+        "": ["input#url", "input[name='url']", "input[id='url']", "input[type='url']"],
+        "": ["input#url", "input[name='url']", "input[id='url']", "input[type='url']"],
+        "": ["input#url", "input[name='url']", "input[id='url']", "input[type='url']"],
     },
     "input_selectors": [
-        "input#url",  # Most robust for CroxyProxy and many others
+        "input#url",  # Most robust for 
         "input[name='url']",
         "input[id='url']",
         "input[type='url']",
